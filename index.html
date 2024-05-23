@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para exibir e documentar trabalhos passados e para contato com clientes">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4130732460380904"
+     crossorigin="anonymous"></script>
+    <title>Galeria</title>
+</head>
+<body onload="not()">
+    <header >
+        <nav id="mobile">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li class="ir"><a href="#">Categorias</a></li>
+                <li class="ir"><a href="#">Novidades</a></li>
+                <li class="ir"><a href="sobre.html">Sobre</a></li>
+                <li class="ir"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div class="menu">
+            <a href="#" onclick="categorias()"><span style="margin-left: 0px;" title="Busque com mais velocidade o que deseja visualizar através desse filtro.">Categorias</span><span class="material-symbols-outlined" id="abrir" translate="no" style="overflow: hidden;  position: relative; left: -16px; top:7px;">expand_more</span><span id="fechar" class="material-symbols-outlined" translate="no" style="overflow: hidden; display: none; position: relative; left: -16px; top:7px;">expand_less</span></a>
+            <a href="#" style="position: relative; left: -40px;"><span  title="Aqui são exibidas as novidades sobre meu trabalho seja novos produtos, ofertas, entre outros.">Novidades</span></a>
+            <a style="position: relative; left: -40px;" href="#atuais" title="Ao clicar te levara para os meus projetos atuais.">Atuais</a>
+        </div>
+        <h1>Galeria</h1>
+        <nav class="menu" style="margin-right: 30px;">
+            <a href="index.html" style="margin-left: 0px;" title="Pagina inicial">Galeria</a>
+            <a href="sobre.html" title="Um pouco sobre minha historia e sobre como comecei nessa área.">Sobre</a>
+            <a href="contato.html" title="Aqui e possível encontrar meu numero, e-mail e outros meios de comunicação.">Contato</a>
+        </nav>
+        <div id="ajuste">ajuste</div>
+    </header>
+
+    <div id="notificacao"></div>
+    <hr>
+    <main>
+        <section id="atuais">
+            <h1 title="Abaixo aparece todos os projetos que eu estou desenvolvendo atualmente.">Atuais</h1>
+            <div id="main-row">
+                <div class="main-col" onclick="window.open('https://spotify-clone-bd.herokuapp.com') ">
+                    <img src="img/spotify.png">
+                    <span class="title">Clone do Spotify</span>
+                    <div class="descricao">
+                        <span>Este e um site que trás uma ferramenta de música como o spotify, esse site não e oficial e esta sendo criado apenas para testar conhecimentos, a primeira versão desse projeto foi iniciada em 2021 e esta sendo desenvolvida ate hoje pois estou sempre adicionando coisas novas que vou apreendendo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="linha"></div>
+        <section id="trabalhos">
+            <h1 title="Abaixo aparece meus trabalho em empresa ou para clientes">Trabalhos</h1>
+            <h2>2022</h2>
+            <div id="main-row">
+                <div class="main-col" onclick="window.open('https://infoeduc.com.br')" >
+                    <img src="img/infoeduc.jpg">
+                    <span class="title">InfoEduc </span>
+                    <div class="descricao">
+                        <span>A InfoEduc foi uma empresa que eu trabalhei por 3 meses como estagiário isso de fevereiro de 2022 ate maio do mesmo ano esse empresa de tecnologia e voltada para gestão de redes escolas e trás ferramentas para professores meu trabalho lá era manutenção da plataforma e criação de modelos para que sejam gerados pdfs.</span>
+                    </div>
+                </div>
+            </div>
+            <h2>2021</h2>
+        </section>
+        <div class="linha"></div>
+        <section>
+            <h1 title="Abaixo são os projetos que eu fiz para treinar e testar meus conhecimentos (os projetos que eu tenho publicado)">Projetos Pessoais</h1>
+            <div id="main-row">
+                <div class="main-col" onclick="window.open('https://spotify-clone-bd.herokuapp.com') ">
+                    <img src="img/spotify.png">
+                    <span class="title">Clone do Spotify</span>
+                    <div class="descricao">
+                        <span>Este e um site que trás uma ferramenta de música como o spotify, esse site não e oficial e esta sendo criado apenas para testar conhecimentos, a primeira versão desse projeto foi iniciada em 2021 e esta sendo desenvolvida ate hoje pois estou sempre adicionando coisas novas que vou apreendendo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4130732460380904"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+
